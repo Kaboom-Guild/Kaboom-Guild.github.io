@@ -16,18 +16,14 @@
   height: 500px;
   background-color: rgba(34, 34, 34, 0.78);
 }
-.wildstar-banner {
-    background: url(/images/obeta.jpg) no-repeat center top fixed;   
-      -webkit-background-size: container;
-      -moz-background-size: container;
-      -o-background-size: container;
-      background-size: container;
-}
 
-.carousel-inner > .item > div {
-  min-height: 100%;  
-}
-
-.hero {
+.hero-image {
   width: 100%; height: 100%;
+  background-position: 70% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wildstar-banner {
+  background-image: url(/images/obeta.jpg);
 }
