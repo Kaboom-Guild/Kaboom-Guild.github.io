@@ -27,3 +27,9 @@
 .wildstar-banner {
   background-image: url(/images/obeta.jpg);
 }
+
+.navbar {
+  margin-left: 0;
+  margin-right: 0;
+  border-color: #f00;
+}
